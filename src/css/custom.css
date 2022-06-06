@@ -43,4 +43,19 @@ tbody td {
   width: 80%;
 }
 
+p{
+  color: white;
+}
+
+p:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+p:first-child{
+  padding-top: 2rem
+}
+
+
+
 #mytable tr:nth-child(even){background-color: #d4cece;}

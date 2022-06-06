@@ -31,19 +31,19 @@
     <table id="mytable">
       <thead>
         <tr>
-          <th>
+          <th class="id">
             id
           </th>
-          <th>
+          <th class="country">
             CountryName
           </th>
-          <th>
+          <th class="continent">
             Continent
           </th>
-          <th>
+          <th class="capital">
             Capital
           </th>
-          <th>
+          <th class="modified">
             ModifiedOn
           </th>
         </tr>
@@ -70,7 +70,11 @@
   <script src="vendor/package/fetch.umd.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- my script -->
-  <script src="js/myscript.js"></script>
+  <script src="js/myscript.js">
+    function displayData(content){
+      console.log('hey', content)
+    }
+  </script>
 </body>
 
 </html>
